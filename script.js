@@ -19,7 +19,7 @@ document.querySelector(".form").addEventListener("submit", (event) => {
   const name = form.elements.nome.value.trim();
   const course = form.elements.curso.value.trim();
   const message = `Olá, meu nome é ${name}. Tenho interesse no curso ${course} e gostaria de consultar mais informações.`;
-  const whatsappUrl = `https://wa.me/5511916410608?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/5511955829968?text=${encodeURIComponent(message)}`;
 
   window.open(whatsappUrl, "_blank", "noopener,noreferrer");
 });
